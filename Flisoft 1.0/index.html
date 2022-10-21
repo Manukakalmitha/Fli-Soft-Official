@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>FLI SOFT &trade;</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="logos/favicon.ico" type="image/x-icon">
+</head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(132, 132, 132);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+<body id="home">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill"></i></button>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4">
+    <div class="container">
+    <a href="#" class="navbar-brand">FLI <span class="text-warning"  >SOFT&trade;</span> </a>     
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            
+          <li class="nav-item">
+            <a href="#Services" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Questions" class="nav-link">Learn</a>
+      </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About Us</a>
+      </li>
+                
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+           
+         
+          
+            
+         
+        </ul>
+    </div>
+    </div>
+   
+</nav>
+<!--Showcase-->
+<section class="bg-dark text-light p-5 p-lg-0 p-t-5   text-center text-sm-start ">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1>What is <span class="text-warning">FLI SOFT ?<i class="bi bi-question-lg"></i> </span>    </h1>
+            <p class="lead my-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et natus distinctio quaerat molestias quidem earum itaque ut odit, unde accusamus nulla maiores similique impedit. Dolorum placeat ratione doloremque voluptatem?
+            </p>
+            <a id="#About">
+            <button class="btn btn-primary ">Kick Start Your Career Now! </button>
+                   </a>
+                   
+            </div>
+            
+            <img class="img-fluid w-50 d-none d-sm-block " src="Pictures/showcase.svg" alt="showcase">
+        </div>
+    </div>
+</section>
+
+<!-- Boxes -->
+<section class="p-3" id="Services">
+<div class="container">
+    <div class="row text-center g-3">
+        <!-- 1st box -->
+      <div class="col-md">
+  
+        <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+               <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+               </div>
+          <h3 class="card-title mb-3">
+            Virtual
+          </h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius doloremque dicta commodi autem dolore.
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+      </div>  
+      <!-- 2nd box -->
+      <div class="col-md">
+        <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+               <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+               </div>
+          <h3 class="card-title mb-3">
+        Hybrid
+          </h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius doloremque dicta commodi autem dolore.
+          </p>
+          <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+        </div>
+      </div>  
+<!-- 3rd box -->
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+               <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+               </div>
+          <h3 class="card-title mb-3">
+          In person
+          </h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius doloremque dicta commodi autem dolore.
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+      </div>  
+
+    </div>
+</div>
+</section>
+
+<!-- Learn Sections -->
+<section id="learn" class="p-5">
+  <div class="container">
+      <div class="row align-items-center justify-content-between">
+  <div class="col-md">
+      <img src="pictures/fundamentals.svg" class="img-fluid" alt="Fundamentals">
+  </div>
+  <div class="col-md p-5">
+      <h2>Learn The Funadamentals</h2>
+      <p class="">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia reprehenderit architecto magni officiis, necessitatibus aperiam.
+      </p>
+      <button class="btn btn-primary btn-lg">Learn More</button>
+  
+  </div>
+  </div>
+     
+  </div>
+  </section>
+<section id="about"class="p-3" id="about">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+    <div class="col-md p-5">
+    <h2> About Us</h2>
+    <p class="p-1">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perspiciatis at? Maxime quas distinctio ex dolores corrupti voluptatem doloribus provident quaerat vel consectetur laudantium sint sit totam, sed obcaecati repudiandae voluptate quam harum atque ea ratione. Corporis suscipit ullam similique temporibus velit. Laudantium repudiandae, repellendus recusandae nam quod ex amet?
+    </p>
+    <button class="btn btn-primay btn-lg btn-primary">Learn More</button>
+  </div>
+   <div class="col-md">
+    <img src="free-office-vector.jpg" class="img-fluid" alt="">
+   
+
+    </div>
+</section>
+
+
+<section>
+<div class=" bg-dark">
+  <div class="row align-items-center justify-content-between text-warning">
+   
+
+</div>
+</section>
+<!--Newsletter-->
+<section class="bg-primary text-light p-5" id="contact">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-center">
+      <h3 class="mb-3 mb-md-0">Sign up For Our NewsLetter</h3>
+      
+      <div class="input-group  news-input">
+          <input type="text" class="form-control" placeholder="Enter Email" >
+          <button class="btn btn-dark btn-lg" type="button" hef="www.youtube.com" >Sign Up</button>
+        </div>  
+    </div>
+       
+  </div>
+</section>
+</a>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDHUpMvL1v45dTBEJFlY4ppq2iJgSXlDP8",
+        authDomain: "fli-soft.firebaseapp.com",
+        projectId: "fli-soft",
+        storageBucket: "fli-soft.appspot.com",
+        messagingSenderId: "634811557297",
+        appId: "1:634811557297:web:3f5674dbf393ecc2344990",
+        measurementId: "G-SD6S87Y82H"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+<footer class="page-footer font-small-blue">
+  <div class="footer-copyright text-center py-3"> 
+    <i class="fa fa-copyright" aria-hidden="true">&copy;FliSoft&trade;</i>
+  </div>
+</footer>
+</html>
